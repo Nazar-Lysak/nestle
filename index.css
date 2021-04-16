@@ -77,7 +77,7 @@ p {
 }
 
 .header_logo {
-    background-image: url(/Images/1.jpg);
+    background-image: url(Images/1.jpg);
     width: 54%;
     height: 680px;
     background-size: cover;
@@ -126,7 +126,7 @@ p {
 }
 
 .main-block-info-logo-1 {
-    background-image: url(/Images/icon1.png);
+    background-image: url(Images/icon1.png);
     margin: 10px 0 0 50px;
     max-width: 150px;
     height: 60px;
@@ -145,7 +145,7 @@ p {
 .main-block-img-1 {
     height: 330px;
     width: 75%;
-    background-image: url(/Images/2.jpg);
+    background-image: url(Images/2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -156,7 +156,7 @@ p {
 .main-block-img-2 {
     height: 330px;
     width: 75%;
-    background-image: url(/Images/3.jpg);
+    background-image: url(Images/3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -164,7 +164,7 @@ p {
 
 
 .main-block-info-logo-2 {
-    background-image: url(/Images/icon2.png);
+    background-image: url(Images/icon2.png);
     background-position: center;
     margin: 10px 0 0 50px;
     height: 100px;
@@ -174,7 +174,7 @@ p {
 }
 
 .main-block-info-logo-3 {
-    background-image: url(/Images/icon3.png);
+    background-image: url(Images/icon3.png);
     background-position: center;
     margin: 10px 0 0 50px;
     height: 120px;
@@ -186,7 +186,7 @@ p {
 .main-block-img-3 {
     height: 330px;
     width: 75%;
-    background-image: url(/Images/4.jpg);
+    background-image: url(Images/4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -195,7 +195,7 @@ p {
 .main-block-img-4 {
     height: 330px;
     width: 75%;
-    background-image: url(/Images/5.jpg);
+    background-image: url(Images/5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -203,7 +203,7 @@ p {
 
 
 .main-block-info-logo-4 {
-    background-image: url(/Images/icon5.png);
+    background-image: url(Images/icon5.png);
     margin: 10px 0 0 50px;
     height: 80px;
     max-width: 130px;
@@ -213,7 +213,7 @@ p {
 }
 
 .main-block-info-logo-5 {
-    background-image: url(/Images/icon4.png);
+    background-image: url(Images/icon4.png);
     margin: 0 0 0 50px;
     height: 115px;
     max-width: 130px;
@@ -225,7 +225,7 @@ p {
 .main-block-img-5 {
     height: 350px;
     width: 75%;
-    background-image: url(/Images/6.jpg);
+    background-image: url(Images/6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -291,8 +291,8 @@ p {
 
         cursor: pointer;
         position: absolute;
-        left: 120px;
-        top: 300px;
+        left: 470px;
+        top: 50px;
         color: #FFF;
         display: flex;
         align-items: center;
