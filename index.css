@@ -6,32 +6,31 @@
 }
 
 body {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: auto;
 }
 
-h1 {
+.h1 {
     font-weight: 400;
-    margin: 50px 0;
-    font-size: 40px;
-
+    margin: 60px 0;
+    font-size: 36px;
+    text-align: center;
 }
 
-.main-block-right {
-    height: 279px;
+.h2 {
+    font-weight: 700;
+    font-size: 18px;
 }
 
-h2 {
-    margin: 10px 50px 20px 50px;
-}
-
-h3 {
-    margin: 40px 0;
+.h3 {
     font-weight: 400;
-    min-width: 511px;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: justify;
 }
 
 h4 {
+    margin-top: 25px;
     text-align: center;
     font-size: 28px;
     font-weight: 400;
@@ -39,15 +38,16 @@ h4 {
 
 p {
     font-weight: 400;
-    margin: 0 50px;
-    min-width: 450px;
+    margin: 20px 50px;
+    text-align: justify;
 }
 
 .main-block-info-marker {
+
     cursor: pointer;
-    position: relative;
-    top: 140px;
-    right: 588px;
+    position: absolute;
+    left: 612px;
+
     color: #FFF;
     display: flex;
     align-items: center;
@@ -56,9 +56,11 @@ p {
     height: 75px;
     min-width: 75px;
     border-radius: 50%;
+    z-index: 2;
     background-color: rgb(62, 62, 114);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 
 .main-block-info-marker:hover {
     background-color: rgb(17, 185, 237);
@@ -67,24 +69,29 @@ p {
 
 /* -- header -- */
 
+
 .header-wrapper {
     display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .header_logo {
-    background-image: url(images/1.jpg);
-    min-width: 550px;
-    min-height: 680px;
-    background-size: 100%;
+    background-image: url(/Images/1.jpg);
+    width: 54%;
+    height: 680px;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 40px;
+    background-position: bottom;
+    margin-top: 10px;
 
 }
 
 .header-info {
-    width: 651px;
-    padding: 40px 180px 40px 40px;
-    margin-top: 50px;
+    width: 46%;
+    height: max-content;
+    padding: 10px 40px 10px 50px;
+    margin-top: 40px;
 }
 
 .btn {
@@ -112,98 +119,114 @@ p {
 /* -- main -- */
 
 .main-block {
-    text-align: left;
     display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
 }
 
 .main-block-info-logo-1 {
-    background-image: url(images/icon1.png);
-    height: 50px;
-    width: 150px;
+    background-image: url(/Images/icon1.png);
+    margin: 10px 0 0 50px;
+    max-width: 150px;
+    height: 60px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
-    margin: 80px 0 40px 40px;
+
 }
 
 .main-block-info {
-    width: 550px;
+    width: 75%;
+    height: 330px;
+
 }
 
 .main-block-img-1 {
-    height: 350px;
-    min-width: 550px;
-    background-image: url(images/2.jpg);
+    height: 330px;
+    width: 75%;
+    background-image: url(/Images/2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
     background-size: 100%;
 }
 
 
 .main-block-img-2 {
-    min-height: 350px;
-    min-width: 550px;
-    background-image: url(images/3.jpg);
+    height: 330px;
+    width: 75%;
+    background-image: url(/Images/3.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 
 .main-block-info-logo-2 {
-    background-image: url(images/icon2.png);
+    background-image: url(/Images/icon2.png);
+    background-position: center;
+    margin: 10px 0 0 50px;
     height: 100px;
-    width: 150px;
+    max-width: 110px;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 50px 0 40px 40px;
 }
 
 .main-block-info-logo-3 {
-    background-image: url(images/icon3.png);
+    background-image: url(/Images/icon3.png);
+    background-position: center;
+    margin: 10px 0 0 50px;
     height: 120px;
-    width: 70px;
+    max-width: 70px;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 50px 0 20px 40px;
 }
 
 .main-block-img-3 {
-    min-height: 350px;
-    min-width: 550px;
-    background-image: url(images/4.jpg);
+    height: 330px;
+    width: 75%;
+    background-image: url(/Images/4.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .main-block-img-4 {
-    min-height: 350px;
-    min-width: 550px;
-    background-image: url(images/5.jpg);
+    height: 330px;
+    width: 75%;
+    background-image: url(/Images/5.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 
 .main-block-info-logo-4 {
-    background-image: url(images/icon4.png);
-    height: 120px;
-    width: 130px;
+    background-image: url(/Images/icon5.png);
+    margin: 10px 0 0 50px;
+    height: 80px;
+    max-width: 130px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
-    margin: 20px 0 20px 40px;
 }
 
 .main-block-info-logo-5 {
-    background-image: url(images/icon5.png);
-    height: 100px;
-    width: 130px;
+    background-image: url(/Images/icon4.png);
+    margin: 0 0 0 50px;
+    height: 115px;
+    max-width: 130px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
-    margin: 50px 0 20px 40px;
 }
 
 .main-block-img-5 {
-    min-height: 350px;
-    min-width: 550px;
-    background-image: url(images/6.jpg);
+    height: 350px;
+    width: 75%;
+    background-image: url(/Images/6.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -214,7 +237,7 @@ p {
     display: flex;
     justify-content: center;
     background-color: rgb(214, 212, 212);
-    width: 1100px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -222,46 +245,54 @@ p {
     margin-bottom: 80px;
 }
 
+.wrap-footer {
+    width: 700px;
+    padding-bottom: 60px;
+}
+
 @media (max-width: 1100px) {
 
-    h1 {
+    .h1 {
         font-weight: 400;
-        margin: 0 30px 20px 30px;
-        font-size: 28px;
+        margin: 20px 0;
+        font-size: 32px;
         text-align: center;
+
     }
 
-    h2 {
-        margin: 10px 50px 20px 50px;
+    .h2 {
+        font-weight: 700;
+        font-size: 18px;
         text-align: center;
+        margin: 10px 50px;
     }
 
-    h3 {
-        margin: 20px 60px;
+    .h3 {
         font-weight: 400;
         font-size: 18px;
-        min-width: 511px;
-        text-align: center;
+        margin: 20px 0;
+        text-align: justify;
     }
 
     h4 {
+        margin-top: 15px;
         text-align: center;
-        font-size: 22px;
+        font-size: 28px;
         font-weight: 400;
-        margin: 15px;
     }
 
     p {
         font-weight: 400;
-        margin: 0 50px;
-        min-width: 450px;
+        margin: 15px 50px;
+        text-align: justify;
     }
 
     .main-block-info-marker {
+
         cursor: pointer;
-        position: relative;
-        left: 280px;
-        top: -380px;
+        position: absolute;
+        left: 120px;
+        top: 300px;
         color: #FFF;
         display: flex;
         align-items: center;
@@ -269,6 +300,7 @@ p {
         text-align: center;
         max-height: 75px;
         max-width: 75px;
+        z-index: 2;
         border-radius: 50%;
         background-color: rgb(62, 62, 114);
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -290,28 +322,27 @@ p {
     }
 
     .header_logo {
-        background-size: contain;
-        justify-content: center;
-        background-repeat: no-repeat;
-        margin-top: 40px;
+        background-size: cover;
+        background-position: bottom;
+        margin-top: 10px;
+        width: 75%;
 
     }
 
     .header-info {
-        width: 651px;
-        margin-top: 20px;
+        width: 75%;
+        margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .btn {
+        .btn {
         height: 40px;
         width: 190px;
         padding: 0;
-        margin: 10px 0 25px 230px;
         background-color: rgb(17, 185, 237);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         border-radius: 25px;
         transition: 0.5s;
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -329,95 +360,106 @@ p {
     /* -- main @media (max-width: 1100px) -- */
 
     .wrap {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
+        margin: 0;
     }
 
     .main-block {
         text-align: left;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: auto;
+        width: 100%;
     }
 
     .main-block-info-logo-1 {
         height: 50px;
         max-width: 150px;
         background-repeat: no-repeat;
-        background-size: contain;
-        margin: 10px 0 40px 210px;
+        background-size: cover;
+        background-position: center;
     }
 
     .main-block-info {
-        padding: 30px;
         display: flex;
+        height: max-content;
+        min-height: 350px;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         background-color: rgb(245, 242, 242);
     }
 
+    .main-block-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 
     .main-block-img-1 {
+        background-size: cover;
         background-repeat: no-repeat;
-        background-size: 100%;
     }
 
 
     .main-block-img-2 {
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
     }
 
 
     .main-block-info-logo-2 {
         height: 100px;
-        width: 150px;
+        width: 115px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin: 10px 0 10px 210px;
+        background-size: cover;
+        margin: 0;
+        margin-left: 50px;
     }
 
     .main-block-info-logo-3 {
-        height: 120px;
+        height: 100px;
         width: 70px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin: 10px 0 10px 230px;
+        background-size: cover;
+        margin: 0;
+        margin-left: 50px;
     }
 
     .main-block-img-3 {
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
     }
 
     .main-block-img-4 {
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
     }
 
 
     .main-block-info-logo-4 {
-        height: 120px;
-        width: 130px;
+        height: 80px;
+        width: 150px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin: 10px 0 10px 210px;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        margin-left: 50px;
     }
 
     .main-block-info-logo-5 {
-        height: 100px;
+        height: 110px;
         width: 130px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin: 10px 0 10px 210px;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        margin-left: 50px;
+
     }
 
     .main-block-img-5 {
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
+        height: 330px;
     }
 
     /* -- footer @media (max-width: 1100px) -- */
@@ -428,14 +470,18 @@ p {
         justify-content: center;
         background-color: rgb(214, 212, 212);
         margin-bottom: 40px;
-        min-width: 600px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .wrap-footer {
+        width: 75%;
     }
 
     .video {
         margin: auto;
     }
-
-    /* @media (max-width: 600px) {
-
-    } */
 }
+
+
+
