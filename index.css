@@ -46,8 +46,10 @@ p {
 
     cursor: pointer;
     position: absolute;
-    left: 612px;
-
+    top: 50%;
+    margin-top: -60px;
+    left: 51%;
+    margin-left: -55px;
     color: #FFF;
     display: flex;
     align-items: center;
@@ -250,7 +252,7 @@ p {
     padding-bottom: 60px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 740px) {
 
     .h1 {
         font-weight: 400;
@@ -291,8 +293,10 @@ p {
 
         cursor: pointer;
         position: absolute;
-        left: 470px;
-        top: 50px;
+        top: 55%;
+        margin-top: -60px;
+        left: 51%;
+        margin-left: -55px;
         color: #FFF;
         display: flex;
         align-items: center;
